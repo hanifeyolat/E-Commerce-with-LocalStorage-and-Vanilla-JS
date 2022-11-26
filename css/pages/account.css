@@ -1,0 +1,33 @@
+.account-area{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.account-container{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 30px;
+    width: 85%;
+    margin: 50px 0;
+}
+.login-area, .register-area{
+    display: flex;
+    flex-direction: column;
+
+}
+.checkbox-container{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+}
+.login-area input , .register-area input{
+   padding: 10px;
+   border: 1px solid #cacaca;
+
+}

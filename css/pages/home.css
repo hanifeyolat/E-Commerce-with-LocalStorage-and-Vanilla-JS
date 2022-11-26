@@ -1,0 +1,221 @@
+.all-categories{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.all-categories-container{
+    width: 85%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    margin: 45px 0;
+}
+
+.all-categories-products{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px !important;
+    width: 100%;
+}
+.all-categories-text{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.category-title{
+    font-weight: 600!important;
+    font-size: 1.6rem;  
+}
+
+.all-categories-products .product-item{
+    background-color: #f7f7f7;
+    border-radius: 10px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.all-categories-products .product-item .category-title{ z-index: 5;}
+.all-categories-products .product-item img{
+    transition: transform ease .2s
+}
+
+.all-categories-products .product-item img:hover{
+    transform: scale(1.1,1.1);
+}
+
+
+
+.all-categories{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.featured-products{
+    margin: 35px 0;
+}
+
+.featured-products-text{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.modal-cards-container{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   align-items: center;
+   gap: 20px;
+   width: 85%;
+   margin: 50px auto;
+
+}
+.modal-card{
+    flex-basis: 49%;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    background-position:right ;
+    padding: 30px;
+}
+.modal-texts{
+    margin:20px 0;
+    width: 70%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+}
+.modal-texts h4,
+.modal-texts p{
+    color: #fff !important;
+}
+
+.our-blog{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+    margin: 20px 0;
+}
+
+
+.our-blog-container{
+    width: 85%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+
+}
+.our-blog-text{
+    margin-bottom: 30px;
+}
+.cards-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 35px;
+    margin: 20px 0!important;
+}
+.blog-card{
+    box-shadow: 0 5px 15px rgb(0 0 0 / 8%);
+    background-color: #fff;
+}
+
+.card-texts{
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+.tarih{
+    color: rgb(184, 184, 184);
+    font-size: 1.4rem;
+    font-weight: 500;
+    text-align: center;
+    display: flex;
+    align-self: center;
+}
+.yorum{
+    color: rgb(184, 184, 184);
+    font-size: 1.4rem;
+    font-weight: 500;
+    text-align: center;
+    display: flex;
+    align-self: center;
+}
+.alt-baslik{
+    font-size: 2rem;
+    font-weight: 700;
+    text-align: center;
+}
+.read-more{
+    text-align: center;
+    border-bottom: 1px solid black;
+    width: 70px;
+    padding: 5px 0;
+    display: flex;
+    align-self: center;
+
+}
+
+.brands-area{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 100px 0;
+}
+
+.brands-area-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    width: 100%;
+}
+.brands-area-container img{
+    opacity: .4;
+    transition: .2s ease;
+}
+.brands-area-container img:hover{
+    opacity: 1;
+}
+.single-sale-area{
+    background-image: url(../../img/single-campaign.png);
+    background-attachment: fixed;
+    width: 100%;
+    padding: 140px 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.single-area-texts{
+    color:#fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.single-area-texts strong{
+    font-size: 5.5rem;
+    font-weight: 700;
+}
+.single-area-texts span{
+    display: inline-block;
+    width: 100px;
+    height: 5px;
+    background-color: #fff;
+
+}

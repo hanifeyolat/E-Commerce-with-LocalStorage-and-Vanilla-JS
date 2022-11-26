@@ -1,0 +1,186 @@
+.shopping-cart-area{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0;
+    margin: 140px auto 30px auto;
+}
+.shopping-cart-container{
+    width: 85%;
+
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    gap: 15px;
+ 
+}
+.shopping-cart-container form,
+.the-clothes-banner {
+    width: 100%;
+    display:flex;
+    flex-direction: column;
+}
+.the-clothes-banner{
+    border: 1px solid lightgray;
+    padding: 30px;
+}
+.the-clothes-banner p,
+.clothes-item p{
+    font-weight: 600;
+    font-size: 1.6rem !important;
+}
+
+
+.the-clothes-banner p span{
+    font-weight: 600;
+    color:red;
+   
+    margin: 0 2px;
+}
+.clothes-container td{
+    padding: 10px;
+    font-size: 1.4rem;
+    
+}
+
+.clothes-item::before{
+    content: '';
+    background-color: rgb(211, 211, 211);
+    height: 1px;
+    width: 95%
+}
+.clothes-container{
+    width: 100%;
+    border: 1px solid lightgray;
+    padding: 10px;
+
+}
+.clothes-image{
+    position:relative;
+    width: 10%;
+}
+.clothes-image img {
+    width: 100px;
+}
+.clothes-name{
+    font-weight: 600;
+    font-size: 1.6rem !important;
+    width: 50%;
+}
+.clothes-quantity{
+    width: 100px;
+}
+.quantity-inputs{
+    width: 100px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+    padding: 2px;
+  
+
+}
+.quantity-inputs a{
+    width: 35%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    font-size: 1.2rem;
+    font-weight: 600;
+    padding: 2px;
+}
+.quantity-inputs a.arttir{
+    background-color: green;
+    color: white;
+    width: 27px;
+    height: 100;
+}
+.quantity-inputs a.azalt{
+    background-color: red;
+    color: white;
+    width: 27px;
+    height: 100;
+}
+
+.quantity-inputs input{
+    height: 22px;
+    border: none;
+    background-color: rgb(239, 238, 238);
+    text-align: center;
+    
+ 
+ }
+.delete{
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    top: 2px  ;
+    left: 2px;
+    background-color: red;
+    color: #fff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+#size-select{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    justify-content: center;
+    margin: auto 0;
+}
+
+.gri-cubuk{
+    display: flex;
+    align-items: center;
+    background-color: rgb(242, 242, 242);
+    height: 7px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+.gri-cizgi{
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid lightgray;
+    margin-top: 10px;
+}
+.kirmizi-cubuk{
+    display: flex;
+    width: 35%;
+    background-color: red;
+    height: 5px;
+    border-radius: 5px;
+}
+
+.card-totals{
+    border: 1px solid lightgray;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    height: 450px;
+    width: auto;
+}
+.card-totals button.red-button{width: 100%;}
+.card-subtotal-container,
+.card-shipping-container,
+.shipping,
+.card-total-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 0;
+}
+
+#total{
+    font-size: 2rem;
+    font-weight: 600;
+}

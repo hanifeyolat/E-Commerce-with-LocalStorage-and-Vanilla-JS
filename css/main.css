@@ -1,0 +1,308 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,200;0,300;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,900&display=swap');
+
+@import url(./responsive.css);
+@import url(./components/footer.css);
+@import url(./components/header.css);
+@import url(./components/products-carousel.css);
+@import url(./components/slider.css);
+@import url(./components/modal.css);
+
+
+
+@import url(./pages/home.css);
+@import url(./pages/contact.css);
+@import url(./pages/shopping-cart.css);
+@import url(./pages/favories.css);
+@import url(./pages/single-blog.css);
+@import url(./pages/account.css);
+@import url(./pages/single-product.css);
+
+
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Jost', sans-serif;
+    font-weight: 500;
+    list-style-type: none;
+    transition: .2s ease;
+
+}
+:root{
+    --mavi: #1367ef;
+}
+
+html{
+    font-size: 10px;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    width: 100vw;
+    height: 100vh;  
+    overflow-x: hidden; 
+    position: relative;
+
+}
+a,p{
+    font-size: 1.7rem;
+    letter-spacing: 0 ;
+    color: black;
+    font-weight: 400;
+    transition: .2s ease;
+}
+i{ pointer-events: none;}
+.normal-text{
+    font-size: 1.4rem;
+    letter-spacing: 0 ;
+    color: black;
+    font-weight: 600;
+    transition: .2s ease;
+    margin: 5px 0;
+
+}
+h1{font-size: 6rem; font-weight: 600;}
+h2{font-size: 5rem; font-weight: 600;}
+h3{font-size: 4rem; font-weight: 600;}
+h4{font-size: 3rem; font-weight: 600;}
+h5{font-size: 2rem; font-weight: 600;}
+h6{font-size: 2rem; font-weight: 600;}
+.img-fluid{
+    width: 100%!important;
+}
+
+.container-fluid{
+    width: 85%;
+    
+}
+.blue-button{
+    padding: 10px 20px;
+    background-color: var(--mavi);
+    font-weight: 600;
+    color: #fff;
+    border: none;
+    font-size: 1.4rem;
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    width: 150px;
+    margin: 20px 0;
+    transition: .2s ease;
+}
+.red-button{
+    padding: 10px 20px;
+    background-color: red;
+    font-weight: 600;
+    color: #fff;
+    border: none;
+    font-size: 1.4rem;
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    width: 150px;
+
+    transition: .2s ease;
+}
+.red-button:hover{
+
+    background-color: rgb(250, 80, 80);
+  
+}
+.blue-button:hover{
+    background-color: #fff;
+    border: 1px solid var(--mavi);
+    color: var(--mavi);
+}
+.black-button{
+    padding: 10px 20px;
+    background-color: black;
+    font-weight: 600;
+    color: #fff;
+    border: none;
+    font-size: 1.4rem;
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    width: 150px;
+    margin: 20px 0;
+    transition: .2s ease;
+    text-align: center !important;
+}
+.black-button:hover{
+    border: 1px solid black;
+    color: black;
+    background-color: #fff;
+}
+.white-button{
+    padding: 10px 20px;
+    background-color: #fff;
+    font-weight: 600;
+    color: black;
+    border: none;
+    font-size: 1.4rem;
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    width: 150px;
+    margin: 20px 0;
+}
+.white-button:hover{
+    background-color: var(--mavi);
+    color: #fff;
+}
+
+.white-button-outline{
+    padding: 10px 20px;
+    border: 1px solid #fff;
+    font-weight: 600;
+    color: #fff;
+    font-size: 1.4rem;
+    margin-top: 15px;
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    width: 150px;
+    margin: 20px 0;
+}
+.white-button-outline:hover{
+    background-color: #fff;
+    border: 1px solid var(--mavi);
+    color: var(--mavi);
+}
+.outline-button{
+    border: 1px solid black;
+    padding: 10px;
+    margin: 10px 0 !important;
+    width: 40%;
+    text-align: center;
+    font-weight: bolder !important;
+    transition: .2s ease;
+}
+
+
+.outline-button:hover{
+    background-color: black;
+    color: #fff !important;
+}
+
+.glide{
+   width: 100% !important;
+   position: relative;
+
+}
+.glide__slides{
+    display: flex;
+    gap: 20px;
+    width: 100%!important;
+}
+
+.glide__arrows{
+    width: 105%;
+    top: 50%;
+    left:-2.5%;
+    display: flex;
+    position: absolute;
+    align-items: center;
+    justify-content: space-between;
+}
+.glide__arrow {
+    background-color: none !important;
+    border: none !important;
+    font-size: 3rem !important;
+    background: transparent !important;
+    color: black !important;
+    box-shadow: none !;
+}
+
+.birinci{
+    transition: .2s ease-in;
+    position: absolute;
+    top: 0;
+}
+.ikinci{
+    opacity: 1;
+    visibility: visible;
+}
+.birinci:hover{
+    opacity: 0;
+}
+.baslik{
+    font-weight: 600;
+    font-size: 1.6rem;
+    margin-bottom: 10px;
+}
+.gri-alt-cizgi{
+    width: 100%;
+    display: inline-block;
+    padding: 10px 0;
+    border-bottom: 1px solid rgb(206, 206, 206);
+}
+
+.menu2{
+    display: flex !important;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 250;
+    width: 50%;
+    height: 100vh;
+    flex-direction: column;
+    gap: 25px;
+    background-color: #fff;
+    border-left: 1px solid lightgray;
+    padding: 75px 50px;
+}
+.hidden{
+    visibility: hidden !important;
+}
+.visible{
+    visibility: visible !important;
+}
+
+
+.d-none{
+    display: none !important;
+}
+.d-flex{
+    display: flex !important;
+    flex-direction: column !important;
+}
+.favories-active{
+    background-color: red !important;
+}
+.favories-active-none{
+    background-color: black !important;
+}
+.pointer-none{
+    background-color: purple !important;
+    color: #fff !important;
+    pointer-events: none !important;
+    cursor: no-drop !important;
+
+    
+}
+a.ri-shopping-basket-fill:disabled {
+    opacity: 0.4 !important;
+    cursor: no-drop;
+}
+.sepet-bos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    font-weight: 600;
+    padding: 200px auto !important;
+}
+.star-active{
+    color: rgb(255, 225, 0) !important;
+}

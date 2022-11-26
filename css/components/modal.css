@@ -1,0 +1,164 @@
+.overlay1,.overlay2{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    z-index: 700;
+    transition: .2s ease;
+}
+.overlay1{z-index: 701;}
+.overlay2{z-index: 700;}
+.overlay1::after,
+.overlay2::after{
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    position: fixed;
+    top: 0;
+    left: 0;
+    opacity: 0.5;
+
+}
+
+
+.modal-container{
+    z-index: 700 !important;
+    position: absolute;
+    width: 500px;
+    height: auto;
+    background-color: white;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    margin: auto 0;
+
+}
+
+.modal form{
+    width: 100%;
+    margin: 15px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+   
+
+.modal form div{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    position: relative;
+    border-bottom:  1px solid rgb(206, 206, 206);
+    padding-bottom: 15px;
+}
+.modal form input{
+    width: 100%;
+    padding: 10px;
+    border:1px solid rgb(206, 206, 206);
+   
+}
+.modal form button{
+    width: 50px;
+    height: auto;
+    z-index:40;
+    padding: 5px;
+    border-radius: none;
+    position: absolute;
+    top: 0;
+    right: 0;
+    border: 1px solid rgb(206, 206, 206);
+    color: black;
+    font-size: 2rem;   
+}
+
+.carpi,.carpi2{
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    font-size: 2rem;
+}
+.modal-product-result{
+    width: 100%;   
+}
+.modal-product-result h5{
+    background-color: rgb(206, 206, 206,0.1);
+    border: 1px solid rgb(206, 206, 206);
+    border-bottom: none;
+    padding: 10px 8px;
+    font-size: 1.8rem;
+}
+.modal-product-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.modal-product-item{
+    border: 1px solid rgb(206, 206, 206);
+    padding: 10px 8px;
+    display: flex;
+    gap: 10px;
+    width: 100%;
+
+}
+.modal-product-item img {
+    width: 65px;
+    height: auto;
+}
+.modal-product-texts .product-baslik{
+    font-weight: 600;
+    font-size: 1.6rem;
+}
+.modal-product-texts .product-kirmizi-baslik{
+    font-weight: 600;
+    font-size: 1.6rem;
+    color: red;
+}
+
+
+/* NEWSLETTER AREA  */
+
+.newsletter-container{
+    position: absolute;
+    display: flex;
+    align-self: center;
+    margin:  auto 0;
+    background-color: #fff;
+    width: 800px;
+    z-index: 701 !important;
+}
+.newsletter-container .newsletter-img-area{
+    height: 80%;
+    display: flex;
+}
+.newsletter-img-area img{
+    height: 100%;
+}
+.text-container{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 35px;
+}
+.text-container h4{
+    text-align: center;
+}
+.newsletter-form{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.newsletter-form input{
+    padding: 10px;
+    border: 1px solid rgb(206, 206, 206);
+
+}
+.modal-checkbox-container{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+
+}

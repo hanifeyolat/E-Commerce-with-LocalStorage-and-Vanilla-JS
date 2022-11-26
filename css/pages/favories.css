@@ -1,0 +1,23 @@
+.favories-container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 200px 0;
+}
+.favories-container h4 {
+    margin:0 0  50px 0;
+}
+.favories-product-container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    width: 85%;
+    gap: 20px;
+}
+.favories-product-container .product-item{
+    width: 100%;
+}
+.favories-product-container .product-item{
+    width: 100%;
+}
